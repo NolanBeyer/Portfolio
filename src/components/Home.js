@@ -3,7 +3,11 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <section className='home-page'>
+        <h1>Welcome to my portfolio</h1>
+        <h3>Technologies I know</h3>
+        <p>HTML, CSS, SCSS, JavaScript, React, Redux, Firebase</p>
+      </section>
     </div>
   )
 }

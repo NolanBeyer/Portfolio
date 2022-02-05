@@ -5,6 +5,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import './scss/styles.css'
 
 const App = () => {
   return (

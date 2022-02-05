@@ -1,0 +1,13 @@
+@import 'home';
+@import 'about';
+@import 'contact';
+@import 'config';
+@import 'footer';
+@import 'navbar';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(48, 56, 65);
+}

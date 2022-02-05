@@ -1,0 +1,16 @@
+.footer {
+  height: 15vh;
+  background-color: rgb(25, 48, 124);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+}
+
+a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgb(25, 48, 124);
+}

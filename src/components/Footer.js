@@ -3,7 +3,12 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <h1>Footer Component</h1>
+      <section className='footer'>
+        <a href='*'>LinkedIn</a>
+        <a href='*'>Facebook</a>
+        <a href='*'>Email</a>
+        <a href='*'>Github</a>
+      </section>
     </div>
   )
 }
