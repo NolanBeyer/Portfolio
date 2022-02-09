@@ -5,9 +5,35 @@
 @import 'footer';
 @import 'navbar';
 
+//? General Styles
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: rgb(48, 56, 65);
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.5;
+  background-image: $bg-image;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-color;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
 }
