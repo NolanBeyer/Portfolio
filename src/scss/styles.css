@@ -40,5 +40,29 @@ a {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #303841;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  line-height: 1.5;
+  background-image: url("../../public/img/showcase.jpg");
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
 }
