@@ -1,12 +1,53 @@
-.navbar {
-  height: 15vh;
-  background-color: rgb(25, 48, 124);
+#logo {
+  height: 70px;
+  width: 70px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
-.links {
+//* Main navbar
+
+#main-nav {
   display: flex;
-  justify-content: flex-end;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
+  justify-content: space-between;
+  padding: 1rem;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+  }
+
+  li:hover {
+    border-color: $medium-color;
+  }
+
+  li.current {
+    border-color: $main-color;
+  }
+}
+
+//* Header
+
+#header {
+  &-home {
+    background: $bg-image no-repeat center right / cover;
+    height: 100vh;
+    color: #fff;
+
+    .header-content {
+      text-align: center;
+      padding-top: 20%;
+    }
+  }
+  &inner {
+  }
 }

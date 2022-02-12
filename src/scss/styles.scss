@@ -1,9 +1,11 @@
 @import 'home';
+@import 'work';
 @import 'about';
 @import 'contact';
 @import 'config';
 @import 'footer';
 @import 'navbar';
+@import 'utilities';
 
 //? General Styles
 
@@ -26,6 +28,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+li {
+  cursor: pointer;
 }
 
 h2,
