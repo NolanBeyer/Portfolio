@@ -1,6 +1,6 @@
 #logo {
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -15,17 +15,19 @@
 }
 #main-nav li {
   padding: 1rem 1.5rem;
+}
+#main-nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   border-bottom: 3px transparent solid;
   padding-bottom: 0.5rem;
-  transition: border-color 0.5s;
+  transition: border-color 0.5s ease;
 }
-#main-nav li:hover {
+#main-nav a:hover {
   border-color: #ccc;
 }
-#main-nav li.current {
+#main-nav a.current {
   border-color: #ffbc00;
 }
 
@@ -38,6 +40,7 @@
   text-align: center;
   padding-top: 20%;
 }
+
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
