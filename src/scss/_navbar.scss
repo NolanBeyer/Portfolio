@@ -37,18 +37,3 @@
     }
   }
 }
-
-//* Header
-
-#header {
-  &-home {
-    background: $bg-image no-repeat center right / cover;
-    height: 100vh;
-    color: #fff;
-
-    .header-content {
-      text-align: center;
-      padding-top: 20%;
-    }
-  }
-}

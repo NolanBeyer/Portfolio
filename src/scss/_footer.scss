@@ -1,1 +1,13 @@
+.main-footer {
+  align-items: center;
 
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+
+  a {
+    color: #fff;
+  }
+}

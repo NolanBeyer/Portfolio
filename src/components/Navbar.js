@@ -1,56 +1,33 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 const Navbar = () => {
   const navigate = useNavigate()
   return (
     <div>
-      <header id='header-home'>
-        <div className='container'>
+      <div className='container'>
+        <header id='header-home'>
           <nav id='main-nav'>
             <img src='' alt='My Portfolio' id='logo' />
             <ul>
               <li>
-                <a
-                  onclick={() => {
-                    navigate('/')
-                  }}
-                  href='*'
-                  className='current'>
+                <Link to='/' className='current'>
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  onClick={() => {
-                    navigate('/about')
-                  }}
-                  href='*'>
-                  About
-                </a>
+                <Link to='/about'>About</Link>
               </li>
               <li>
-                <a
-                  onClick={() => {
-                    navigate('/work')
-                  }}
-                  href='*'>
-                  Work
-                </a>
+                <Link to='/work'>Work</Link>
               </li>
               <li>
-                <a
-                  onClick={() => {
-                    navigate('/contact')
-                  }}
-                  href='*'>
-                  Contact
-                </a>
+                <Link to='/contact'>Contact</Link>
               </li>
             </ul>
           </nav>
-        </div>
-      </header>
+        </header>
+      </div>
     </div>
   )
 }
