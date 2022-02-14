@@ -2,9 +2,11 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <div>
-      <h1>Work Page</h1>
-    </div>
+    <>
+      <section className='work-page'>
+        <h1>Work Page</h1>
+      </section>
+    </>
   )
 }
 
