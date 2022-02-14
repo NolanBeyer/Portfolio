@@ -1,3 +1,44 @@
+.header-content {
+  height: 100vh;
+  text-align: center;
+  padding-top: 20%;
+}
+.header-content h1 {
+  font-size: 4rem;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.work-page {
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+.about-page {
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-page {
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+.main-footer {
+  align-items: center;
+}
+.main-footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.main-footer a {
+  color: #fff;
+}
+
 #logo {
   height: 100px;
   width: 100px;
@@ -31,16 +72,6 @@
   border-color: #ffbc00;
 }
 
-#header-home {
-  background: url("../../public/img/showcase.jpg") no-repeat center right/cover;
-  height: 100vh;
-  color: #fff;
-}
-#header-home .header-content {
-  text-align: center;
-  padding-top: 20%;
-}
-
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
@@ -69,6 +100,35 @@
   background-color: #333;
 }
 
+button[class^=btn-]:hover,
+a[class^=btn-]:hover,
+input[class^=btn-]:hover {
+  background-color: #ffbc00;
+}
+
+.lead {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s ease;
+}
+
+a:hover {
+  border-color: #ccc;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -78,7 +138,7 @@
 body {
   font-family: "Dosis", sans-serif;
   line-height: 1.5;
-  background-image: url("../../public/img/showcase.jpg");
+  background: url("/public/img/showcase.jpg");
 }
 
 a {
