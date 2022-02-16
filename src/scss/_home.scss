@@ -1,13 +1,66 @@
-.header {
+.home {
   &-content {
     height: 100vh;
     text-align: center;
     padding-top: 20%;
+    background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80');
 
     h1 {
       font-size: 4rem;
       line-height: 1.2;
       color: #fff;
+    }
+  }
+}
+
+#home {
+  &-a {
+    .section-title {
+      font-size: 3rem;
+    }
+
+    .specials {
+      margin: 3rem;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fas {
+      color: #ffbc00;
+      padding-bottom: 0.4rem;
+    }
+  }
+
+  &-b {
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+
+      li {
+        line-height: 2;
+      }
+      &.stats-title {
+        font-size: 1.5rem;
+      }
+
+      &.stats-number {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+
+    div {
+      padding: 3rem 0;
+
+      &:nth-child(even) {
+        background: #333;
+        color: white;
+      }
+    }
+
+    .odds {
+      background: #f4f4f4;
     }
   }
 }

@@ -37,14 +37,14 @@
   font-size: 2rem;
   font-weight: bold;
 }
-#home-b .stat-grid {
+#home-b div {
   padding: 3rem 0;
 }
-#home-b .stat-grid:nth-child(even) {
+#home-b div:nth-child(even) {
   background: #333;
   color: white;
 }
-#home-b .stat-grid:nth-child(even) {
+#home-b .odds {
   background: #f4f4f4;
 }
 
