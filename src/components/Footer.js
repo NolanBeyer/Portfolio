@@ -3,14 +3,16 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <div className='container'>
-        <footer className='main-footer'>
+      <footer className='main-footer'>
+        <div className='container'>
           <ul>
             <li>
-              <a href='*'>LinkedIn</a>
+              <a href='https://www.linkedin.com/in/nolan-beyer-5252731b1/'>
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href='*'>Github</a>
+              <a href='https://github.com/NolanBeyer'>Github</a>
             </li>
             <li>
               <a href='*'>Resume</a>
@@ -19,8 +21,8 @@ const Footer = () => {
               <a href='*'>Email</a>
             </li>
           </ul>
-        </footer>
-      </div>
+        </div>
+      </footer>
     </div>
   )
 }
