@@ -16,10 +16,11 @@
 #home-a .specials {
   margin: 3rem;
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
 }
-#home-a .fas {
+#home-a .fas,
+#home-a .fab {
   color: #ffbc00;
   padding-bottom: 0.4rem;
 }
@@ -47,6 +48,25 @@
 #home-b .odds {
   background: #f4f4f4;
 }
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
+}
+#home-c .process-icon {
+  border-radius: 50%;
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  transition: all 0.5s;
+}
+#home-c .process-icon:hover {
+  background: #ffbc00;
+  color: #333;
+}
 
 .work-page {
   height: 100vh;
@@ -66,22 +86,34 @@
   color: #fff;
 }
 
-.main-footer {
-  align-items: center;
-  background-color: #333;
+#main-footer {
+  background: #333;
+  color: white;
+  height: 5rem;
 }
-.main-footer ul {
+#main-footer .footer-content {
   display: flex;
   justify-content: space-between;
-  padding: 3rem;
+  height: 5rem;
+  align-items: center;
 }
-.main-footer a {
+#main-footer .footer-content .social .fab {
+  margin-right: 1rem;
+  border: 2px #fff solid;
   color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  transition: all 0.5s ease;
+}
+#main-footer .footer-content .social .fab:hover {
+  background: #ffbc00;
+  color: #333;
 }
 
 #logo {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -150,7 +182,6 @@ input[class^=btn-]:hover {
 .lead {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #fff;
 }
 
 .text-center {
@@ -194,6 +225,23 @@ a:hover {
 }
 .my-4 {
   margin: 4rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  display: block;
+  height: 2px;
+  width: 5rem;
+  background: #ffbc00;
+  margin: 0 auto 1rem auto;
 }
 
 .d-flex {
