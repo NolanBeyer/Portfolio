@@ -42,7 +42,6 @@ input[class^='btn-']:hover {
 .lead {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #fff;
 }
 
 .text-center {
@@ -94,6 +93,25 @@ a:hover {
   &-4 {
     margin: 4rem 0;
   }
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+//* Bottom-line
+
+.bottom-line {
+  display: block;
+  height: 2px;
+  width: 5rem;
+  background: $main-color;
+  margin: 0 auto 1rem auto;
 }
 
 //*flex
