@@ -1,12 +1,31 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
-    <div>
-      <section className='contact-page'>
-        <h1>Contact Page</h1>
-      </section>
-    </div>
+    <>
+      <header id='header-inner'>
+        <nav id='main-nav'>
+          <img src='img/work.png' alt='My Portfolio' id='logo' />
+          <ul>
+            <li>
+              <Link to='/'>Home</Link>
+            </li>
+            <li>
+              <Link to='/work'>Work</Link>
+            </li>
+            <li>
+              <Link to='/about'>About</Link>
+            </li>
+            <li>
+              <Link className='current' to='/contact'>
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
   )
 }
 

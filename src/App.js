@@ -4,7 +4,6 @@ import Home from './components/Home'
 import Work from './components/Work'
 import About from './components/About'
 import Contact from './components/Contact'
-import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import './scss/styles.css'
 
@@ -12,7 +11,6 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Navbar />
         <Routes>
           <Route path='/*' element={<Home />} />
           <Route path='/work' element={<Work />} />
