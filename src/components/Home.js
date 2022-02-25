@@ -1,16 +1,25 @@
 import React from 'react'
+import Navbar from './Navbar'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+  const navigate = useNavigate()
   return (
-    <div>
+    <>
+      <Navbar />
       <div className='home-content'>
         <div className='container'>
           <h1>Nolan Beyer</h1>
           <h2>Frontend Engineer</h2>
-          <p className='lead'>Web & Graphic Designer</p>
-          <a href='*' className='btn-light'>
+          <h3>Graphic Designer</h3>
+          <button
+            onClick={() => {
+              navigate('/work')
+            }}
+            href='*'
+            className='btn-light'>
             View My Work
-          </a>
+          </button>
         </div>
       </div>
 
@@ -20,7 +29,7 @@ const Home = () => {
           <h2 className='section-title'>I Specialize In</h2>
           <div className='bottom-line'></div>
           <p className='lead'>
-            HTML, CSS, SCSS, JavaScript, React, Redux, MongoDB, FireBase, Adobe
+            HTML, CSS, SCSS, JavaScript, React, MongoDB, FireBase, Adobe
             Illustrator.
           </p>
           <div className='specials'>
@@ -28,50 +37,44 @@ const Home = () => {
               <i className='fab fa-html5 fa-2x'></i>
               <h3>HTML</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium possimus, quaerat molestiae suscipit doloribus sint
-                enim sapiente vero facere quibusdam? Ea quaerat molestias ullam
-                sint ratione, beatae id mollitia ducimus!
+                Two years of experience in HTML5 using various tags, links, id's
+                classes, meta tags and more.
               </p>
             </div>
             <div className='py-2'>
               <i className='fab fa-css3 fa-2x'></i>
               <h3>CSS/SCSS</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium possimus, quaerat molestiae suscipit doloribus sint
-                enim sapiente vero facere quibusdam? Ea quaerat molestias ullam
-                sint ratione, beatae id mollitia ducimus!
+                Two years of experience with css with strong knowledge of css
+                grid, flex box, position properties, overlays. SCSS nesting,
+                variables, partials, functions, mixins and more.
               </p>
             </div>
             <div className='py-2'>
               <i className='fab fa-js-square fa-2x'></i>
               <h3>JavaScript</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium possimus, quaerat molestiae suscipit doloribus sint
-                enim sapiente vero facere quibusdam? Ea quaerat molestias ullam
-                sint ratione, beatae id mollitia ducimus!
+                Two years of experience with JavaScript es6. With knowledge in
+                let vs const, scope, arrow functions, strings, booleans,
+                template literals, destructuring, spread operator etc.
               </p>
             </div>
             <div className='py-2'>
               <i className='fab fa-react fa-2x'></i>
               <h3>React</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium possimus, quaerat molestiae suscipit doloribus sint
-                enim sapiente vero facere quibusdam? Ea quaerat molestias ullam
-                sint ratione, beatae id mollitia ducimus!
+                Nearly two years of experience with knowledge in react router,
+                functional components, useNavigate, Link, redux, hooks, and
+                lifecycle methods.
               </p>
             </div>
             <div className='py-2'>
               <i className='fas fa-eye-dropper fa-2x'></i>
               <h3>Adobe Illustrator</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium possimus, quaerat molestiae suscipit doloribus sint
-                enim sapiente vero facere quibusdam? Ea quaerat molestias ullam
-                sint ratione, beatae id mollitia ducimus!
+                Three years of experience with adobe illustrator designing and
+                creating graphic kits for dirtbikes, helmets, logos for various
+                business's, vectorizing images, etc.
               </p>
             </div>
           </div>
@@ -88,25 +91,25 @@ const Home = () => {
                 <i className='fas fa-users fa-3x'></i>
               </li>
               <li className='stats-title'>Clients</li>
-              <li className='stats-number'>100</li>
+              <li className='stats-number'>68</li>
             </ul>
           </div>
           <div>
             <ul>
               <li>
-                <i className='fas fa-award fa-3x'></i>
+                <i className='fas fa-graduation-cap fa-3x'></i>
               </li>
-              <li className='stats-title'>Awards</li>
-              <li className='stats-number'>3</li>
+              <li className='stats-title'>Certificates</li>
+              <li className='stats-number'>4</li>
             </ul>
           </div>
           <div className='odds'>
             <ul>
               <li>
-                <i className='fas fa-hourglass-start fa-3x'></i>
+                <i className='fas fa-hourglass-end fa-3x'></i>
               </li>
               <li className='stats-title'>Hours Worked</li>
-              <li className='stats-number'>3500</li>
+              <li className='stats-number'>5,000</li>
             </ul>
           </div>
           <div>
@@ -115,7 +118,7 @@ const Home = () => {
                 <i className='fas fa-code-branch fa-3x'></i>
               </li>
               <li className='stats-title'>Projects</li>
-              <li className='stats-number'>135</li>
+              <li className='stats-number'>76</li>
             </ul>
           </div>
         </div>
@@ -167,7 +170,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   )
 }
 
