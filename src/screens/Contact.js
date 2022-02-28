@@ -25,6 +25,69 @@ const Contact = () => {
           </ul>
         </nav>
       </header>
+
+      {/* Contact-Section:A */}
+
+      <section id='contact-a' className='text-center py-3'>
+        <div className='container'>
+          <h2 className='section-title'>Contact Me</h2>
+          <div className='bottom-line'></div>
+          <form action=''>
+            <div className='text-fields'>
+              <input
+                type='text'
+                className='text-input name-input'
+                placeholder='Name'
+              />
+              <input
+                type='text'
+                className='text-input subject-input'
+                placeholder='Subject'
+              />
+              <input
+                type='email'
+                className='text-input email-input'
+                placeholder='Email Address'
+              />
+              <input
+                type='text'
+                className='text-input phone-input'
+                placeholder='Phone Number'
+              />
+              <textarea
+                className='text-input message-input'
+                placeholder='Enter Message'></textarea>
+            </div>
+            <button type='submit' className='btn-dark'>
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+
+      {/* Section:B */}
+
+      <section id='contact-b' className='text-center py-3 bg-dark'>
+        <div className='container'>
+          <div className='contact-info'>
+            <div>
+              <i className='fas fa-envelope fa-2x'></i>
+              <h3>Email</h3>
+              <p>nolanbeyer40@gmail.com</p>
+            </div>
+            <div>
+              <i className='fas fa-phone fa-2x'></i>
+              <h3>Phone</h3>
+              <p>(541) 979-7040</p>
+            </div>
+            <div>
+              <i className='fas fa-location-arrow fa-2x'></i>
+              <h3>address</h3>
+              <p>33648 Berry Dr NE Albany, Oregon</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
