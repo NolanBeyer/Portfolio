@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import Work from './components/Work'
-import About from './components/About'
-import Contact from './components/Contact'
+import Home from './screens/Home'
+import Work from './screens/Work'
+import About from './screens/About'
+import Contact from './screens/Contact'
 import Footer from './components/Footer'
 import './scss/styles.css'
 
