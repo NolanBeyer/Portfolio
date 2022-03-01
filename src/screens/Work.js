@@ -35,104 +35,146 @@ const Work = () => {
           <div className='items'>
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item1.png' alt='item1' />
+                <img
+                  src='https://media.istockphoto.com/photos/investment-business-report-picture-id1286971516?b=1&k=20&m=1286971516&s=170667a&w=0&h=t3XYTkHV4DDzYIC_peiKO7uD5Bmvjc7rcQIC9X13ZYw='
+                  alt='item1'
+                />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Design</p>
-                  <h2 className='item-text-title'>Great Gradients</h2>
+                  <a
+                    href='https://nolanbeyer.github.io/Edge-Ledger/'
+                    className='item-text-category'>
+                    view
+                  </a>
+                  <h2 className='item-text-title'>Edge Ledger</h2>
                 </div>
               </div>
             </div>
 
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item2.png' alt='item2' />
+                <img
+                  src='https://media.istockphoto.com/photos/downtown-cleveland-hotel-entrance-and-waiting-taxi-cab-picture-id472899538?b=1&k=20&m=472899538&s=170667a&w=0&h=oGDM26vWKgcKA3ARp2da-H4St2dMEhJg23TTBeJgPDE='
+                  alt='item2'
+                />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>UI/ UX</p>
-                  <h2 className='item-text-title'>World Experience</h2>
+                  <a
+                    href='https://nolanbeyer.github.io/Hotel-Site/'
+                    className='item-text-category'>
+                    view
+                  </a>
+                  <h2 className='item-text-title'>Hotel BT</h2>
                 </div>
               </div>
             </div>
 
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item3.png' alt='item3' />
+                <img
+                  src='https://media.istockphoto.com/photos/online-shopping-and-fashion-store-website-with-add-to-cart-button-in-picture-id1287186681?b=1&k=20&m=1287186681&s=170667a&w=0&h=OQr0VJzocP4FxkzO1PwbdZD63nkOEQHIE4M3Lncdw6Y='
+                  alt='item3'
+                />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Photography and Design</p>
-                  <h2 className='item-text-title'>Vanishing</h2>
+                  <a
+                    href='https://proshopapp127.herokuapp.com/'
+                    className='item-text-category'>
+                    view
+                  </a>
+                  <h2 className='item-text-title'>ProShop</h2>
                 </div>
               </div>
             </div>
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item4.png' alt='item4' />
+                <img
+                  src='https://images.unsplash.com/photo-1494869042583-f6c911f04b4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZXllfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60'
+                  alt='item4'
+                />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Design</p>
-                  <h2 className='item-text-title'>Gap Ink</h2>
+                  <a
+                    href='https://face-id.dev/#/'
+                    className='item-text-category'>
+                    view
+                  </a>
+                  <h2 className='item-text-title'>Face Rec</h2>
                 </div>
               </div>
             </div>
 
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item5.png' alt='item5' />
+                <img
+                  src='https://images.unsplash.com/photo-1615494488092-b13b68fe0eb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGluc3RhZ3JhbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60'
+                  alt='item5'
+                />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Mobile UI Design</p>
-                  <h2 className='item-text-title'>Face The Experience</h2>
+                  <a
+                    href='https://github.com/NolanBeyer/Firegram'
+                    className='item-text-category'>
+                    view
+                  </a>
+                  <h2 className='item-text-title'>FireGram</h2>
                 </div>
               </div>
             </div>
 
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item6.png' alt='item6' />
+                <img
+                  src='https://media.istockphoto.com/photos/lots-of-photograph-collections-in-one-image-picture-id155388009?b=1&k=20&m=155388009&s=170667a&w=0&h=9ViUIIQJvYIbRRb1iP2z8seywph8lQCNKn3dVh2ZpsY='
+                  alt='item6'
+                />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Design Concept</p>
-                  <h2 className='item-text-title'>Bezier Curves</h2>
+                  <a
+                    href='https://github.com/NolanBeyer/Photo-Wall'
+                    className='item-text-category'>
+                    view
+                  </a>
+                  <h2 className='item-text-title'>PhotoWall</h2>
                 </div>
               </div>
             </div>
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item7.png' alt='item7' />
+                <img src='/img/star.jpg' alt='star' />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Photography</p>
-                  <h2 className='item-text-title'>Dock Ponder</h2>
+                  <p className='item-text-category'>Graphic Design</p>
+                  <h2 className='item-text-title'>Factory Yamaha</h2>
                 </div>
               </div>
             </div>
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item8.png' alt='item8' />
+                <img src='/img/honda.jpg' alt='honda' />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Web Applications</p>
-                  <h2 className='item-text-title'>Restaurant App</h2>
+                  <p className='item-text-category'>Graphic Design</p>
+                  <h2 className='item-text-title'>Honda Kit</h2>
                 </div>
               </div>
             </div>
             <div className='item'>
               <div className='item-image'>
-                <img src='/img/items/item9.png' alt='item9' />
+                <img src='/img/yamaha.jpg' alt='yamaha' />
               </div>
               <div className='item-text'>
                 <div className='item-text-wrap'>
-                  <p className='item-text-category'>Social Network Concept</p>
-                  <h2 className='item-text-title'>Friend Feed</h2>
+                  <p className='item-text-category'>Graphic Design</p>
+                  <h2 className='item-text-title'>Yamaha Kit</h2>
                 </div>
               </div>
             </div>
