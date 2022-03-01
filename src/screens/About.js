@@ -38,38 +38,19 @@ const About = () => {
               <img className='about-img' src='/img/me.jpg' alt='Me' />
             </div>
             <div className='bio bg-light py-4'>
-              <h4>Your project is in safe hands</h4>
+              <h4>Bio</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                saepe fugit excepturi? Vitae fuga voluptatibus vel minima.
-                Voluptatibus cum ad explicabo, soluta maxime saepe rerum
-                corporis temporibus perspiciatis laborum tempore?
+                I've always been really interested in technology, but never
+                thought about a career in web development until summer of 2020.
+                I started doing some research and just trying to learn some of
+                the basics in HTML and CSS. The thought of making this a full
+                time career got me really excited. I've spent countless hours
+                over the last year and a half learning and teaching myself.
+                Although I still have a ways to go I'm really excited for this
+                next step and am willing to learn additional technologies to fit
+                the needs of future employers.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section id='about-b' className='text-center'>
-        <div className='container'>
-          <h1 className='about-b-title'>Technical Skills</h1>
-          <div className='bottom-line'></div>
-        </div>
-        <div className='about-skills'>
-          <div>
-            <img className='skill-logos' src='/img/html.png' alt='html' />
-          </div>
-          <div>
-            <img className='skill-logos' src='/img/css.png' alt='css' />
-          </div>
-          <div>
-            <img className='skill-logos' src='/img/js.png' alt='javascript' />
-          </div>
-          <div>
-            <img className='skill-logos' src='/img/react.png' alt='react' />
-          </div>
-          <div>
-            <img className='skill-logos' src='/img/adobe.png' alt='adobe' />
           </div>
         </div>
       </section>
