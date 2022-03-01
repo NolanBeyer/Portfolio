@@ -37,8 +37,9 @@ const Home = () => {
               <i className='fab fa-html5 fa-2x'></i>
               <h3>HTML</h3>
               <p>
-                Two years of experience in HTML5 using various tags, links, id's
-                classes, meta tags and more.
+                Two years of experience in HTML5 using tags such as. divs,
+                sections, headers, footers, links, forms, inputs id's classes,
+                meta tags and more.
               </p>
             </div>
             <div className='py-2'>
@@ -130,41 +131,39 @@ const Home = () => {
         <div className='container'>
           <h2 className='section-title'>My Creative Process</h2>
           <div className='bottom-line'></div>
-          <p className='lead'>
-            All of my UI / UX designs are based off a practiced formula to get
-            the result I am looking for.
-          </p>
           <div className='process'>
             <div>
               <i className='fas fa-file-alt fa-4x process-icon my-2'></i>
               <h3>Discuss the project</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quibusdam illo iure corporis eligendi ut repellat.
+                Talk to the client about a look they're after. Get some ideas
+                for logos / color schemes.
               </p>
             </div>
             <div>
               <i className='fas fa-desktop fa-4x process-icon my-2'></i>
               <h3>Brainstorming ^ Concept</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quibusdam illo iure corporis eligendi ut repellat.
+                I like to go to awwwards.com and checkout several different
+                sites and kinda take bits and pieces from them all to create
+                something of my own.
               </p>
             </div>
             <div>
               <i className='fas fa-object-ungroup fa-4x process-icon my-2'></i>
               <h3>UI / UX Planning</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quibusdam illo iure corporis eligendi ut repellat.
+                After I kinda have a vision in my head. I use figma to do some
+                wire framing and quickly get an outlook of what I'm after.
               </p>
             </div>
             <div>
               <i className='fas fa-thumbs-up fa-4x process-icon my-2'></i>
               <h3>Interaction</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Quibusdam illo iure corporis eligendi ut repellat.
+                At this point I'm communicating with the client a lot. Sending
+                proofs back and forth until we get a product we're both
+                satisfied with.
               </p>
             </div>
           </div>
