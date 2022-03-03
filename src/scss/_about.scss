@@ -31,10 +31,10 @@
 }
 
 #about-a {
-  height: 70vh;
+  height: 100vh;
   text-align: center;
   color: #333;
-  height: 100vh;
+  height: 150vh;
 }
 
 .about-img {
@@ -70,5 +70,12 @@
   .bio-border {
     height: 350px;
     width: 350px;
+  }
+}
+
+//? SmartPhones
+@media (max-width: 500px) {
+  .about-info {
+    flex-direction: column;
   }
 }

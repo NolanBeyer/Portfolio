@@ -1,12 +1,32 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 const Home = () => {
   const navigate = useNavigate()
   return (
     <>
-      <Navbar />
+      <header id='header-home'>
+        <nav id='main-nav'>
+          <img src='img/work.png' alt='My Portfolio' id='logo' />
+          <ul>
+            <li>
+              <Link to='/' className='current'>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to='/work'>Work</Link>
+            </li>
+            <li>
+              <Link to='/about'>About</Link>
+            </li>
+            <li>
+              <Link to='/contact'>Contact</Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
       <div className='home-content'>
         <div className='container'>
           <h1>Nolan Beyer</h1>
@@ -24,7 +44,7 @@ const Home = () => {
       </div>
 
       {/* Section-A Specialize */}
-      <section id='home-a' className='text-center py-2'>
+      <section id='home-a' className='text-center'>
         <div className='container'>
           <h2 className='section-title'>I Specialize In</h2>
           <div className='bottom-line'></div>

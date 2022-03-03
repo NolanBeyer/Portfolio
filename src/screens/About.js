@@ -30,9 +30,6 @@ const About = () => {
         <div className='container'>
           <h1 className='section-title'>About Me</h1>
           <div className='bottom-line'></div>
-          <p className='lead'>
-            Let me tell you a little about myself and what I do.
-          </p>
           <div className='about-info'>
             <div>
               <img className='about-img' src='/img/me.jpg' alt='Me' />
