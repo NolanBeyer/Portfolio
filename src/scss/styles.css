@@ -244,6 +244,12 @@ a {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 500px) {
+  #work-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #about-nav {
   display: flex;
   justify-content: space-between;
@@ -381,6 +387,12 @@ a {
   color: #fff;
 }
 
+@media (max-width: 500px) {
+  #contact-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #main-footer {
   background: url("/img/main-bg.jpg") no-repeat bottom center/cover;
   color: white;
