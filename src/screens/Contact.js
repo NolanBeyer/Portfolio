@@ -32,7 +32,11 @@ const Contact = () => {
         <div className='container'>
           <h2 className='section-title'>Contact Me</h2>
           <div className='bottom-line'></div>
-          <form method='POST' data-netlify='true' data-netlify-recaptcha='true'>
+          <form
+            method='POST'
+            netlify-honeypot='bot-field'
+            data-netlify='true'
+            data-netlify-recaptcha='true'>
             <div className='text-fields'>
               <input
                 type='text'
