@@ -1,5 +1,5 @@
 #main-footer {
-  background: #333;
+  background: url('/img/main-bg.jpg') no-repeat bottom center/cover;
   color: white;
   height: 5rem;
   position: relative;
@@ -31,7 +31,6 @@
 //? SmartPhones
 @media (max-width: 500px) {
   #main-footer {
-    background: #333;
     color: white;
     height: 7rem;
     position: relative;

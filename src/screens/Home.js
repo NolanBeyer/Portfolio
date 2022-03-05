@@ -44,7 +44,7 @@ const Home = () => {
       </div>
 
       {/* Section-A Specialize */}
-      <section id='home-a' className='text-center'>
+      <section id='home-a' className='text-center py-4'>
         <div className='container'>
           <h2 className='section-title'>I Specialize In</h2>
           <div className='bottom-line'></div>

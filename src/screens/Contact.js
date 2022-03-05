@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <header id='header-inner'>
-        <nav id='main-nav'>
+        <nav id='contact-nav'>
           <img src='img/work.png' alt='My Portfolio' id='logo' />
           <ul>
             <li>

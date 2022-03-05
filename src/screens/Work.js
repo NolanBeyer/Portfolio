@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <>
       <header id='header-inner'>
-        <nav id='main-nav'>
+        <nav id='work-nav'>
           <img src='img/work.png' alt='My Portfolio' id='logo' />
           <ul>
             <li>
@@ -31,7 +31,6 @@ const Work = () => {
         <div className='container'>
           <h2 className='section-title'>My Work</h2>
           <div className='bottom-line'></div>
-          <p className='lead'>Here are a few of my projects</p>
           <div className='items'>
             <div className='item'>
               <div className='item-image'>
