@@ -32,11 +32,7 @@ const Contact = () => {
         <div className='container'>
           <h2 className='section-title'>Contact Me</h2>
           <div className='bottom-line'></div>
-          <form
-            method='POST'
-            netlify-honeypot='bot-field'
-            data-netlify='true'
-            data-netlify-recaptcha='true'>
+          <form method='POST' netlify-honeypot='bot-field' data-netlify='true'>
             <div className='text-fields'>
               <input
                 type='text'
@@ -66,9 +62,6 @@ const Contact = () => {
                 className='text-input message-input'
                 placeholder='Enter Message'
                 name='message'></textarea>
-              <div className='my-2'>
-                <div data-netlify-recaptcha='true'></div>
-              </div>
             </div>
             <button type='submit' className='btn-dark'>
               Submit
