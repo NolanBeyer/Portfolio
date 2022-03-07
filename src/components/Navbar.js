@@ -6,7 +6,7 @@ const Navbar = () => {
     <>
       <header id='header-home'>
         <nav id='main-nav'>
-          <img src='img/work.png' alt='My Portfolio' id='logo' />
+          <img src='img/bitmoji.png' alt='My Portfolio' id='logo' />
           <ul>
             <li>
               <Link to='/' className='current'>

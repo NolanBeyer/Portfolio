@@ -6,7 +6,7 @@ const Work = () => {
     <>
       <header id='header-inner'>
         <nav id='work-nav'>
-          <img src='img/work.png' alt='My Portfolio' id='logo' />
+          <img src='img/bitmoji.png' alt='My Portfolio' id='logo' />
           <ul>
             <li>
               <Link to='/'>Home</Link>

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <nav id='about-nav'>
-        <img src='img/work.png' alt='My Portfolio' id='logo' />
+        <img src='img/bitmoji.png' alt='My Portfolio' id='logo' />
         <ul>
           <li>
             <Link to='/'>Home</Link>
@@ -39,8 +39,8 @@ const About = () => {
               <p>
                 I've always been really interested in technology, but never
                 thought about a career in web development until after I suffered
-                a SCI back in 2016. In 2019 I started doing some research and
-                just trying to learn some of the basics of HTML and CSS. I've
+                a SCI in 2016. I started doing some research and just trying to
+                learn some of the basics of HTML and CSS in late 2019. I've
                 spent countless hours over the last two years learning /
                 teaching myself these languages. I feel like now I am more than
                 ready for a frontend position and am willing to learn additional
@@ -55,7 +55,7 @@ const About = () => {
               </p>
             </div>
             <div className='award-2 py-4'>
-              <i class='fas fa-certificate fa-3x'></i>
+              <i class='fas fa-graduation-cap fa-3x'></i>{' '}
               <h3>MERN Ecommnerce</h3>
               <p>
                 Full stack Ecommerce site with authentication. Built with

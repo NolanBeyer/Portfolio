@@ -473,6 +473,11 @@ a {
   overflow: hidden;
 }
 
+#logo {
+  height: 60px;
+  width: 60px;
+}
+
 .btn-dark, .btn-light, .btn-main {
   display: inline-block;
   padding: 0.8rem 2rem;

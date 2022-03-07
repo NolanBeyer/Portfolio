@@ -6,7 +6,8 @@ const Contact = () => {
     <>
       <header id='header-inner'>
         <nav id='contact-nav'>
-          <img src='img/work.png' alt='My Portfolio' id='logo' />
+          <img src='img/bitmoji.png' alt='My Portfolio' id='logo' />
+
           <ul>
             <li>
               <Link to='/'>Home</Link>
