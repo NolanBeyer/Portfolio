@@ -42,9 +42,8 @@ const About = () => {
                 a SCI in 2016. I started doing some research and just trying to
                 learn some of the basics of HTML and CSS in late 2019. I've
                 spent countless hours over the last two years learning /
-                teaching myself these languages. I feel like now I am more than
-                ready for a frontend position and am willing to learn additional
-                technologies to fit the needs of future employers.
+                teaching myself these languages. Looking forward to applying my
+                skills towards new challenges.
               </p>
             </div>
             <div className='award-1 py-4'>
